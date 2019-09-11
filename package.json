@@ -1,0 +1,37 @@
+{
+  "name": "jrot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "jrot-init": "node init.js"
+  },
+  "bin": {
+    "jrot": "node ./bin/jrot.js"
+  },
+  "keywords": [
+    "rot13",
+    "rot",
+    "custom",
+    "custom rot",
+    "jrot"
+  ],
+  "author": "JZ",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakjai20/jrot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zakjai20/jrot/issues"
+  },
+  "homepage": "https://github.com/zakjai20/jrot#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
+}
